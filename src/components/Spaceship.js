@@ -6,10 +6,10 @@ export default class Spaceship extends React.Component {
   render(){
     return (
       <div>
-        <p>{this.name}</p><br/>
-        <p>{this.speed}</p>
-        <p>{this.hasRockets} </p>
-        <p>{this.colors}</p>
+        <p>{this.props.name}</p><br/>
+        <p>{this.props.speed}</p>
+        <p>{this.props.hasRockets} </p>
+        <p>{this.propscolors}</p>
       </div>
     )
   }
